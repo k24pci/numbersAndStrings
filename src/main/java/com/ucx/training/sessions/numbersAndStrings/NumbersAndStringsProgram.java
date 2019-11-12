@@ -38,7 +38,7 @@ public class NumbersAndStringsProgram {
                 .append("World!");
         System.out.println(stringBuilder.toString());
 
-        String sValue = "Hello";
+        String sValue  = "Hello";
         String sValue2 = "Hello";
         String sValue3 = new String("Hello");
 
@@ -55,6 +55,9 @@ public class NumbersAndStringsProgram {
 
         Set<Integer> listWithoutDuplicates = new HashSet<>(list);
         System.out.println(listWithoutDuplicates);
+
+        CountZeros.countZeros(16);
+        System.out.println(FindNumber.findNumber(Set.of(1,7,9,10),8));
 
     }
 }
